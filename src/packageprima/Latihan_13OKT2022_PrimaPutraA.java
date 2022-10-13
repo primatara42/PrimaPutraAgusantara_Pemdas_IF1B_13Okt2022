@@ -39,6 +39,8 @@ public class Latihan_13OKT2022_PrimaPutraA
 			else
 			{
 				harga = 0;
+				kodeJaket = 0;
+				kodeUkuran = 0;
 			}
 		}
 		
@@ -62,6 +64,8 @@ public class Latihan_13OKT2022_PrimaPutraA
 			else
 			{
 				harga = 0;
+				kodeJaket = 0;
+				kodeUkuran = 0;
 			}
 		}
 		
@@ -85,6 +89,8 @@ public class Latihan_13OKT2022_PrimaPutraA
 			else
 			{
 				harga = 0;
+				kodeJaket = 0;
+				kodeUkuran = 0;
 			}
 		}
 		
@@ -96,7 +102,7 @@ public class Latihan_13OKT2022_PrimaPutraA
 		
 		if(kodeJaket == 0 && kodeUkuran == 0)
 		{
-			System.out.println("Kode Jaket dan Kode Ukuran Salah!");
+			System.out.println("Input Tidak Valid!");
 		}
 		
 		else
